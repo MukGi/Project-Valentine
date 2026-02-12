@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    background-color: pink; 
+    display: flex; 
+    height: 100vh; 
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 700;
+    font-family:"Dancing Script";
+}
+
+button{
+border: none;
+border-radius: 10px;
+width: 50px;
+height: 50px;
+font-family: "Dancing Script";
+background-color: rgb(255, 66, 97);
+
+font-size: large;
+font-weight: bold;
+
+}
+
+.container{
+    max-width: 250px;
+    margin-top: 10vh;
+    text-align: center;
+}
+img{
+    width: 150px;
+    height: auto;
+}
+
+.btn_class{
+ display: flex;
+ justify-content: space-between;
+}
+
+.heart{
+    width: 50px;
+    height: 50px;
+}
+
+
+#concertBtn{
+    width: auto;
+}
+
+@media screen and (orientation: landscape) {
+    video{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    video{
+        width: 100vw;
+        height: 50vh;
+    }
+}
