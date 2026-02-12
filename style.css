@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
 
 body{
-    background-color: pink; 
+    background-color: rgb(206, 145, 155); 
     display: flex; 
     height: 100vh; 
     justify-content: center; 
@@ -10,8 +12,8 @@ body{
 
 h2{
     font-size: 25px;
-    font-weight: 700;
-    font-family:"Dancing Script";
+    font-weight: 50;
+    font-family:"Pacifico";
 }
 
 button{
@@ -20,7 +22,8 @@ border-radius: 10px;
 width: 50px;
 height: 50px;
 font-family: "Dancing Script";
-background-color: rgb(255, 66, 97);
+background-color: rgb(241, 33, 67);
+color: white;
 
 font-size: large;
 font-weight: bold;
@@ -40,6 +43,7 @@ img{
 .btn_class{
  display: flex;
  justify-content: space-between;
+ 
 }
 
 .heart{
